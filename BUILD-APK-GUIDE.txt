@@ -1,0 +1,20 @@
+MediCare Android APK build
+
+This source is a React + Vite web app. The GitHub Actions workflow wraps it
+as an Android app using Capacitor and builds a debug APK.
+
+1. Create a GitHub repository and upload all files from this folder.
+2. Open the repository's Actions tab.
+3. Select "Build MediCare APK" and click "Run workflow" (or push to main).
+4. Wait for the workflow to finish successfully.
+5. Open the completed workflow run, find Artifacts, and download
+   "MediCare-APK". Extract it to get app-debug.apk.
+6. Transfer app-debug.apk to your Android phone and install it.
+
+Package ID: com.medicare.app
+App name: MediCare
+
+Note: This is a debug APK for testing, not a signed Play Store release.
+The build requires GitHub Actions internet access to download dependencies
+and Android build tools. No APK was compiled in this environment because
+an Android SDK is not installed here.
